@@ -1,8 +1,10 @@
 // main.dart
 import 'package:flutter/material.dart';
-import 'Home.dart';
+// import 'Home.dart';
 import 'orientationApp.dart';
+
 void main() => runApp(MyApp());
+
 class MyApp extends StatelessWidget {
 // This widget is the root of your application.
   @override
@@ -13,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.lightGreen,
       ),
-      home: OrientationApp() ,
+      home: OrientationApp(),
     );
   }
 }
